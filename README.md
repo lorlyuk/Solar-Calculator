@@ -11,6 +11,7 @@
 Онлайн-калькулятор буде оперувати такими типами даний:
 
 Назва області, в якій планується використання сонячних панелей -> назва, кількість випромінення сонячної радіації в рік;
+
 Мешканці -> кількість, середня потужність;
 
 Клас панелей -> площа, вартість;
@@ -23,8 +24,7 @@
 
 Дані будуть розміщенні відповідно до паттерна Repository у файлах:
 
-Файл 
-region.json:
+Файл region.json:
 
 {
 
@@ -35,11 +35,14 @@ region.json:
 }
 
 Файл customer.json:
+
 {
+
 	"customer_id": 1,
 	"customer_type": "household",
 	"customer_tariff: 0.034,
-	"residents_id":1,
+	"residents_id":1
+	
 }
 
 
@@ -47,21 +50,25 @@ region.json:
 
 
 {
+
   	 "residents_id":1,
   	 "residents_number": "2",
   	 "residents_rate of use": "5",
 	 "region_id": 1,
-	 "customer_id": 1,
+	 "customer_id": 1
+	 
 }
  
  
 Файл type_of_solar_panel.json:
 
 {
+
   	 "panel_id":1,
   	 "panel_type": "Premium",
   	 "panel_price": 212,
 	 "panel_area": 1.28,
-	 "panel_KPD": 18%,
+	 "panel_KPD": 18%
+	 
  }
 
