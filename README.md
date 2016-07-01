@@ -28,31 +28,40 @@ region.json:
 
 {
 
-			 "region_id": 1,
-  
-			 "region_name": "Rivnenska",
-  
-			 "level of solar radiation": 3.01
+	 "region_id": 1,
+  	 "region_name": "Rivnenska",
+  	 "level of solar radiation": 3.01
   
 }
 
+Файл customer.json:
+{
+	"customer_id": 1,
+	"customer_type": "household",
+	"customer_tariff: 0.034,
+	"residents_id":1,
+}
 
-Файл resident.json:
+
+Файл residents.json:
 
 
 {
-
-  		"residents_id":1,
-  		
-		 "residents_number": "2",
-  
-  
-  
-  "engine_fuel": "бензин",
-  "engine_volume": "1.2",
-  "engine_power": "81 kW",
-  "gearbox_type": "мех.",
-  "gearbox_steps": "5-cт.",
-  "model_id": 1,
-  "price": 396832
+  	 "residents_id":1,
+  	 "residents_number": "2",
+  	 "residents_rate of use": "5",
+	 "region_id": 1,
+	 "customer_id": 1,
 }
+ 
+ 
+Файл type_of_solar_panel.json:
+
+{
+  	 "panel_id":1,
+  	 "panel_type": "Premium",
+  	 "panel_price": 212,
+	 "panel_area": 1.28,
+	 "panel_KPD": 18%,
+ }
+
