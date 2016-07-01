@@ -12,8 +12,11 @@
 
 Назва області, в якій планується використання сонячних панелей -> назва, кількість випромінення сонячної радіації в рік;
 Мешканці -> кількість, середня потужність;
+
 Клас панелей -> площа, вартість;
+
 Користувачі -> видб тариф;
+
 Тариф -> назва, вартість.
 
 #Структура даних:
@@ -22,17 +25,26 @@
 
 Файл 
 region.json:
+
 {
-  "region_id": 1,
-  "region_name": "Rivnenska",
-  "level of solar radiation": 3.01
+
+			 "region_id": 1,
+  
+			 "region_name": "Rivnenska",
+  
+			 "level of solar radiation": 3.01
+  
 }
+
 
 Файл resident.json:
 
+
 {
-  "residents_id":1,
-  "residents_number": "2",
+
+  		"residents_id":1,
+  		
+		 "residents_number": "2",
   
   
   
