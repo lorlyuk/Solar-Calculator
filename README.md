@@ -12,11 +12,9 @@
 
 Назва області, в якій планується використання сонячних панелей -> назва, кількість випромінення сонячної радіації в рік;
 
-Мешканці -> кількість, середня потужність;
-
 Клас панелей -> площа, вартість;
 
-Користувачі -> видб тариф;
+Користувачі -> вид тариф;
 
 Тариф -> назва, вартість.
 
@@ -41,24 +39,12 @@
 	"customer_id": 1,
 	"customer_type": "household",
 	"customer_tariff: 0.034,
-	"residents_id":1
+	"region_id":1
 	
 }
 
 
-Файл residents.json:
 
-
-{
-
-  	 "residents_id":1,
-  	 "residents_number": "2",
-  	 "residents_rate of use": "5",
-	 "region_id": 1,
-	 "customer_id": 1
-	 
-}
- 
  
 Файл type_of_solar_panel.json:
 
@@ -67,8 +53,34 @@
   	 "panel_id":1,
   	 "panel_type": "Premium",
   	 "panel_price": 212,
+  	 "panel_power": 0.2
 	 "panel_area": 1.28,
 	 "panel_KPD": 18%
 	 
  }
 
+Загальний вигляд обєкту буде таким 
+
+{
+
+  "id": 98,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+           }
+           
+}
