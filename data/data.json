@@ -1,0 +1,2108 @@
+[ 
+{
+  "id": 1,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 2,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 3,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 4,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 5,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 6,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 7,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 8,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 9,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 1,
+                  "region_name": "Rivnenska",
+                  "level of solar radiation": 3.01
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+
+
+{
+  "id": 10,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 11,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 12,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 13,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 14,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 15,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 16,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 17,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 18,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 2,
+                  "region_name": "Simferopol",
+                  "level of solar radiation": 3.58
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+
+
+{
+  "id": 19,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 20,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 21,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 22,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 23,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 24,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 25,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 26,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 27,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 3,
+                  "region_name": "Vinnitsa",
+                  "level of solar radiation": 3.11
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+
+
+
+
+
+{
+  "id": 28,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 29,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 30,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 31,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                 "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 32,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 33,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 34,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 35,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 36,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 4,
+                  "region_name": "Lutsk",
+                  "level of solar radiation": 2.99
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+
+
+{
+  "id": 37,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 38,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 39,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 40,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 41,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 42,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 43,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 44,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 45,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 5,
+                  "region_name": "Dnipro",
+                  "level of solar radiation": 3.36
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+{
+  "id": 46,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 47,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 48,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 49,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 50,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 51,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 52,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 53,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 54,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 6,
+                  "region_name": "Donetsk",
+                  "level of solar radiation": 3.34
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+
+
+{
+  "id": 55,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 56,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 57,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 58,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 59,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 60,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 61,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 62,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 63,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 7,
+                  "region_name": "Zhytomyr",
+                  "level of solar radiation": 3.04
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+{
+  "id": 64,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 65,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id":66,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 67,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 68,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 69,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 70,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 71,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 72,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 8,
+                  "region_name": "Uzhgorod",
+                  "level of solar radiation": 3.16
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 73,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 74,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 75,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 76,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 77,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 78,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 79,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 80,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 81,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 9,
+                  "region_name": "Zaporizhzhia",
+                  "level of solar radiation": 3.44
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 82,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 83,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 84,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 85,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 86,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 87,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 88,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 89,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 90,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 10,
+                  "region_name": "Ivano-Frankivsk",
+                  "level of solar radiation": 2.94
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+
+
+
+
+
+{
+  "id": 91,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id":1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 92,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+        "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 93,
+  "customer": {
+            "customer_id": 1,
+            "customer_type": "household",
+            "customer_tariff": 0.034,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 94,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 95,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 96,
+  "customer": {
+            "customer_id": 2,
+            "customer_type": "enterprise",
+            "customer_tariff": 0.056,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+},
+{
+  "id": 97,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 1,
+           "panel_type": "Luxe",
+           "panel_price": 290,
+           "panel_power": 0.28,
+           "panel_area": 1.94,
+           "panel_KPD": 16.6
+          }
+},
+{
+  "id": 98,
+  "customer": {
+            "customer_id": 3,
+            "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 2,
+           "panel_type": "Premium",
+           "panel_price": 212,
+           "panel_power": 0.2,
+           "panel_area": 1.28,
+           "panel_KPD": 18
+          }
+},
+{
+  "id": 99,
+  "customer": {
+            "customer_id": 3,
+             "customer_type": "Green_tariff",
+            "customer_tariff": 0.19,
+            "region": {
+                  "id": 11,
+                  "region_name": "Kiev",
+                  "level of solar radiation": 3.1
+                } 
+        },
+  "type_of_solar_panel": {
+           "panel_id": 3,
+           "panel_type": "Standard",
+           "panel_price": 111,
+           "panel_power": 0.1,
+           "panel_area": 0.72,
+           "panel_KPD": 18.3
+          }
+}
+]
+
+
