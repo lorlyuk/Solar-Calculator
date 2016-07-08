@@ -64,23 +64,35 @@
 {
 
   "id": 98,
-  "customer": {
+  "customer": 
+  	{
+  	
             "customer_id": 3,
             "customer_type": "Green_tariff",
             "customer_tariff": 0.19,
-            "region": {
+            "region": 
+            
+            	{
+            	
                   "id": 11,
                   "region_name": "Kiev",
                   "level of solar radiation": 3.1
+                  
                 } 
+                
         },
-  "type_of_solar_panel": {
+        
+  "type_of_solar_panel": 
+  	{
+  	
            "panel_id": 2,
            "panel_type": "Premium",
            "panel_price": 212,
            "panel_power": 0.2,
            "panel_area": 1.28,
            "panel_KPD": 18
+           
            }
+           
            
 }
