@@ -1,0 +1,27 @@
+body {
+	background: url('../img/1.jpg');
+	font-weight: bold;
+	font-size: 2em;
+	
+}
+h1 {
+	text-align: center;
+	padding-top: 20px;
+	
+}
+header {
+	
+	height: 100px;
+}
+.first_section {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	text-align: center;
+}
+.page_down {
+	margin-top: 15px;
+}
+
+.resalt {
+	padding: 3vw;
+}
