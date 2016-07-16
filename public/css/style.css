@@ -25,3 +25,8 @@ header {
 .resalt {
 	padding: 3vw;
 }
+.center {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	text-align: center;
+}

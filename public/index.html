@@ -5,19 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
   <title>SolarCalculator</title>
 </head>
 <body>
 <header>
-<div>
+<div >
 <h1>Калькулятор окупності </br> 
 	використання сонячних панелей</h1>
 </div>
 </header>
-<div>
+<div class="center">
 <div class= "first_section">
-<h2>Вкажіть регіон, в якому плануєте ставити панелі</h2>
+<h3>Виберіть необхідне</h3>
 <select name="customer_type" class="form-control">
   <option>Домогосподарство</option>
   <option>Підприємство</option>
@@ -63,7 +65,7 @@
 </div>
 	<h2>Вкажіть очікувану потужність</h2>
 </br>
-	<input type="text" class="form-control" placeholder="кВт/год">
+	<input type="number" class="form-control" placeholder="кВт/год">
 <a href="index1.html">
 <button type="button" class="btn btn-primary page_down">Розрахувати</button></a>
 </div>
