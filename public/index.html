@@ -20,14 +20,16 @@
 <div class="center">
 <div class= "first_section">
 <h3>Виберіть необхідне</h3>
+<form>
 <select name="customer_type" class="form-control">
-  <option>Домогосподарство</option>
-  <option>Підприємство</option>
-  <option>Зелений тариф</option>
+  <option value="1">Домогосподарство</option>
+  <option value="2">Підприємство</option>
+  <option value="3">Зелений тариф</option>
 </select>  
 </div>
 <h2>Вкажіть регіон, в якому плануєте ставити панелі</h2>
 <select name="region_name" class="form-control">
+  <option value="1">Рівне</option>
   <option>Сімферополь</option>
   <option>Вінниця</option>
   <option>Луцьк</option>
@@ -44,7 +46,6 @@
   <option>Миколаїв</option>
   <option>Одеса</option>
   <option>Полтава</option>
-  <option>Рівне</option>
   <option>Суми</option>
   <option>Тернопіль</option>
   <option>Харків</option>
@@ -57,17 +58,18 @@
 <div>
 	<h2>Вкажіть клас панелі</h2>
 <select name="panel_type"  class="form-control">
-  <option>Люкс, ціна за одиницю 290 євро, 0,28 кВт </option>
-  <option>Преміум, ціна за одиницю 212 євро, 0,2 кВт</option>
-  <option>Стандарт, ціна за одиницю 111 євро, 0,1 кВт</option>
+  <option value="1">Люкс, ціна за одиницю 290 євро, 0,28 кВт </option>
+  <option value="2">Преміум, ціна за одиницю 212 євро, 0,2 кВт</option>
+  <option value="3">Стандарт, ціна за одиницю 111 євро, 0,1 кВт</option>
   </select>
 </br>
 </div>
 	<h2>Вкажіть очікувану потужність</h2>
 </br>
-	<input type="number" class="form-control" placeholder="кВт/год">
-<a href="index1.html">
-<button type="button" class="btn btn-primary page_down">Розрахувати</button></a>
+	<input type="number" name="power" class="form-control" placeholder="кВт/год">
+<button onclick="window.solarApp.getQuery()" type="button" class="btn btn-primary page_down">Розрахувати</button>
+</form>
+<div id="result"></div>
 </div>
 </body>
 </html>
