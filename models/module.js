@@ -21,22 +21,29 @@ module.exports = (function () {
 
         // }
 
-        var prepareResult = function() {
-        		for (var i = 0; i < data.length; ++i) {
-        			console.log('blablabla')
-        			if (data[i].customer.customer_id == query.customerId && data[i].customer.region.id == query.regionId && data[i].type_of_solar_panel.panel_id == query.panelId) {
-        				result.push(data[i]);
+        var prepareResult = function(query) {
+        		var result =[];
+                console.log(query);
+                for (var i = 0; i < data.length; ++i) {
+        			
+        			if ((data[i].customer.customer_id == query.customerId) 
+                        && (data[i].customer.region.id == query.regionId) 
+                        && (data[i].type_of_solar_panel.panel_id == query.panelId)) {
+        				data[i].customer.expected_power = parseFloat(query.expectedPower);
+                        console.log(data[i].customer);
+                        result.push(data[i]);
+
         			}
         		}
+            
         		return result;
         	}
 
-        var getResult = function(query) {
-        	var result = {};
-        	result.push(prepareResult(query));
-
-        	console.log(result)
-        		return true;
+        var getResult = function(params) {
+        	var result = [];
+        	
+            return prepareResult(params);
+        	
         };
 
         return {

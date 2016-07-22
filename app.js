@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 app.post('/result', function(req, res) {
-	console.log(req.body);
 	res.send(solarModule.getResult(req.body));
 });
 

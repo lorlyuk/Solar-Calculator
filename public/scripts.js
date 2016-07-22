@@ -18,9 +18,23 @@ $(function () {
     		}).done(displayResult);
     	};
 
-    	var displayResult = function (customerQuery) {
-    		$('#result').text('customerQuery');
+    	var displayResult = function (data) {
+            var square = data[0].customer.expected_power / (data[0].type_of_solar_panel.panel_power * data[0].type_of_solar_panel.panel_area);
+            var pannelQuantity =  square / data[0].type_of_solar_panel.panel_area;
+
+            
+            var result = '<div>Panel square: ' + (square).toFixed(2) + '</div>';
+                result += '<div>Panels number: ' + Math.ceil(pannelQuantity) + '</div>';
+            console.log(data);
+    		$('#result').html(result);
     	};
+
+        var getSquare = function(instance){
+            var result = null;
+
+
+            return result;
+        };
 
     	return {
     		getQuery: getQuery,
