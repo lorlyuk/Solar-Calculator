@@ -30,30 +30,30 @@
 <h2>Вкажіть регіон, в якому плануєте ставити панелі</h2>
 <select name="region_name" class="form-control">
   <option value="1">Рівне</option>
-  <option>Сімферополь</option>
-  <option>Вінниця</option>
-  <option>Луцьк</option>
-  <option>Дніпро</option>
-  <option>Донецьк</option>
-  <option>Житомир</option>
-  <option>Ужгород</option>
-  <option>Запоріжжя</option>
-  <option>Івано-Франківськ</option>
-  <option>Київ</option>
-  <option>Кіровоград</option>
-  <option>Луганськ</option>
-  <option>Львів</option>
-  <option>Миколаїв</option>
-  <option>Одеса</option>
-  <option>Полтава</option>
-  <option>Суми</option>
-  <option>Тернопіль</option>
-  <option>Харків</option>
-  <option>Херсон</option>
-  <option>Хмельницький</option>
-  <option>Черкаси</option>
-  <option>Чернівці</option>
-  <option>Чернігів</option>
+  <option value="2">Сімферополь</option>
+  <option value="3">Вінниця</option>
+  <option value="4">Луцьк</option>
+  <option value="5">Дніпро</option>
+  <option value="6">Донецьк</option>
+  <option value="7">Житомир</option>
+  <option value="8">Ужгород</option>
+  <option value="9">Запоріжжя</option>
+  <option value="10">Івано-Франківськ</option>
+  <option value="11">Київ</option>
+  <option value="12">Кіровоград</option>
+  <option value="13">Луганськ</option>
+  <option value="14">Львів</option>
+  <option value="15">Миколаїв</option>
+  <option value="16">Одеса</option>
+  <option value="17">Полтава</option>
+  <option value="18">Суми</option>
+  <option value="19">Тернопіль</option>
+  <option value="20">Харків</option>
+  <option value="21">Херсон</option>
+  <option value="22">Хмельницький</option>
+  <option value="23">Черкаси</option>
+  <option value="24">Чернівці</option>
+  <option value="25">Чернігів</option>
 </select>
 <div>
 	<h2>Вкажіть клас панелі</h2>
@@ -67,7 +67,7 @@
 	<h2>Вкажіть очікувану потужність</h2>
 </br>
 	<input type="number" name="power" class="form-control" placeholder="кВт/год">
-<button onclick="window.solarApp.getQuery()" type="button" class="btn btn-primary page_down">Розрахувати</button>
+<button onclick="window.solarApp.displayResult ()" type="button" class="btn btn-primary page_down">Розрахувати</button>
 </form>
 <div id="result"></div>
 </div>

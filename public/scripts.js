@@ -18,12 +18,13 @@ $(function () {
     		}).done(displayResult);
     	};
 
-    	var displayResult = function (data) {
-    		$('#result').text('data');
+    	var displayResult = function (customerQuery) {
+    		$('#result').text('customerQuery');
     	};
 
     	return {
-    		getQuery: getQuery
+    		getQuery: getQuery,
+            displayResult: displayResult
     	}
 
 	})();
