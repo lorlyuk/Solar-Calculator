@@ -46,8 +46,9 @@ module.exports = (function () {
         	
         };
 
+
         return {
-        	getResult: getResult
+        	getResult: getResult            
         }
 })();
 

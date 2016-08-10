@@ -21,10 +21,19 @@ $(function () {
     	var displayResult = function (data) {
             var square = data[0].customer.expected_power / (data[0].type_of_solar_panel.panel_power * data[0].type_of_solar_panel.panel_area);
             var pannelQuantity =  square / data[0].type_of_solar_panel.panel_area;
-
+            var panelCost = pannelQuantity * data[0].type_of_solar_panel.panel_price;
+            var installationCosts = panelCost * 0.1;
+            var transportationCosts = panelCost * 0.15;
+            var allCosts = panelCost + installationCosts + transportationCosts;
             
-            var result = '<div>Panel square: ' + (square).toFixed(2) + '</div>';
-                result += '<div>Panels number: ' + Math.ceil(pannelQuantity) + '</div>';
+            var result = '<h2>Результат розрахунку по вибраних Вами параметрах</h2><div class="table-responsive"><table class="table">';
+                result += '<tr>'+'<td>' + 'Необхідна плаща панелей:' + '</td>' + '<td>' + (square).toFixed(2) + '</td>' + '<td>' + 'квадратних метрів' + '</td>' + '</tr>';
+                result += '<tr>'+'<td>' + 'Вам потрібно панелей:'+ '</td>' + '<td>'+ Math.ceil(pannelQuantity) + '</td>' + '<td>' + 'штук' + '</td>' +'</tr>';
+                result += '<tr>'+'<td>' + 'Вартість таких панелей становитиме: '+ '</td>' + '<td>' + (panelCost).toFixed(2) + '</td>' + '<td>' + 'євро' + '</td>' +'</tr>';
+                result += '<tr>'+'<td>' + 'Витрати на встановленя: '+ '</td>' + '<td>' + (installationCosts).toFixed(2) + '</td>' + '<td>' + 'євро' + '</td>' +'</tr>';
+                result += '<tr>'+'<td>' + 'Транспортні витрати: '+ '</td>' + '<td>' + (transportationCosts).toFixed(2) + '</td>' + '<td>' + 'євро' + '</td>' +'</tr>';
+                result += '<tr>'+'<td>' + 'Всі витрати: ' + '</td>' + '<td>'+ (allCosts).toFixed(2) + '</td>' + '<td>' + 'євро' + '</td>' +'</tr>';
+                result += '<tr>'+'<td>' + 'Строк окупності: ' + '</td>' + '<td>'+ (allCosts).toFixed(2) + '</td>' + '<td>' + 'років' + '</td>' +'</tr>';
             console.log(data);
     		$('#result').html(result);
     	};
@@ -36,9 +45,12 @@ $(function () {
             return result;
         };
 
+         
+
     	return {
     		getQuery: getQuery,
-            displayResult: displayResult
+            displayResult: displayResult,
+            galleryspin: galleryspin
     	}
 
 	})();
