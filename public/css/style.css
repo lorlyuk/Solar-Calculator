@@ -10,12 +10,9 @@ h1 {
 }
 header {
 	height: 180px;
-	
 }
-.first_section {
-	margin-left: 20vw;
-	margin-right: 20vw;
-	text-align: center;
+#result {
+	padding-bottom: 40px;
 }
 .page_down {
 	margin-top: 15px;
