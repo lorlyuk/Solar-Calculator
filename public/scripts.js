@@ -30,7 +30,7 @@ $(function () {
             var periodPB = panelCost / valueЕnergyProduced;
             
             var result = '<h2>Результат розрахунку по вибраних Вами параметрах</h2><div class="table-responsive"><table class="table">';
-                result += '<tr>'+'<td>' + 'Необхідна плаща панелей:' + '</td>' + '<td>' + (square).toFixed(2) + '</td>' + '<td>' + 'квадратних метрів' + '</td>' + '</tr>';
+                result += '<tr>'+'<td>' + 'Необхідна площа панелей:' + '</td>' + '<td>' + (square).toFixed(2) + '</td>' + '<td>' + 'квадратних метрів' + '</td>' + '</tr>';
                 result += '<tr>'+'<td>' + 'Вам потрібно панелей:'+ '</td>' + '<td>'+ Math.ceil(pannelQuantity) + '</td>' + '<td>' + 'штук' + '</td>' +'</tr>';
                 result += '<tr>'+'<td>' + 'Вартість таких панелей становитиме: '+ '</td>' + '<td>' + (panelCost).toFixed(2) + '</td>' + '<td>' + 'євро' + '</td>' +'</tr>';
                 result += '<tr>'+'<td>' + 'Витрати на встановленя: '+ '</td>' + '<td>' + (installationCosts).toFixed(2) + '</td>' + '<td>' + 'євро' + '</td>' +'</tr>';
